@@ -1,0 +1,2 @@
+A file just to test a better "$ git status"
+The command "$ git status -s"
