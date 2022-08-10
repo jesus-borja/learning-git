@@ -67,9 +67,9 @@ For example, we may do this to ignore the file where some enviroment variables a
 ## git status -s
 This command is really similar to `git status`, it just modifies how the changes are displayed in console.
 This is a screenshot of the output when we execute `git status`:
-![[Pasted image 20220807233228.png]]
+
 And this is when we execute `git status -s`:
-![[Pasted image 20220807233451.png]]
+
 The red "M" means that the file has been modified, but aren't in the stage area just yet.
 Therefore, the green "M" means that the file is in the stage area and ready to be commited.
 For last, the red "??" means that a file isn't tracked yet by git.
