@@ -5,7 +5,7 @@ It's also important to say that this README.md file is used in Github to show in
  
 ## Now locally from linux
  
-I'm continuing with the crash course of git & github. Thanks FreeCodeCamp.org :)
+I'm continuing with the crash course of git & github. Thanks FreeCodeCamp.org and Nico from youtube.com/c/HolaMundoDev :)
 
 ## git init 
 
