@@ -33,6 +33,10 @@ The first "-m" is used to give a message about the commit, ideally it is related
 We're forced to provide a title for commiting a change.
 The second "-m" is used to provide a better description of what the commit does.
 
+## git commit -am "Commit title" -m "Commit description"
+
+This command helps us add (that's what -a means) and commit our changes at the same time.
+
 ## git remote
 
 Until the remote command means that it will be stored somewhere else, but not this computer and it's commonly used to give it a reference to a remote repository on github.
@@ -97,3 +101,8 @@ This command is useful to switch between the different branches that our repo co
 
 ## git merge `<branch>`
 This command tries to unify the actual branch (the one you are in) and the branch with the given name.
+
+## Delete branch
+
+Once we've finished our features or fixes in a branch, and as they usually aren't reused we should  delete them.
+That's done whith the command `git branch -d <branch-name>`
