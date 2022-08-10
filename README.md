@@ -6,6 +6,11 @@ It's also important to say that this README.md file is used in Github to show in
 ## Now locally from linux
  
 I'm continuing with the crash course of git & github. Thanks FreeCodeCamp.org :)
+
+## git init 
+
+This command is used when we start a new repository locally, instead of first creating one on Github and then cloning it to a local machine.
+It can be executed in any directory where we want to keep track of the files that are in it.
  
 ## git status 
  
@@ -28,6 +33,24 @@ The first "-m" is used to give a message about the commit, ideally it is related
 We're forced to provide a title for commiting a change.
 The second "-m" is used to provide a better description of what the commit does.
 
+## git remote
+
+Until the remote command means that it will be stored somewhere else, but not this computer and it's commonly used to give it a reference to a remote repository on github.
+
+## git remote add origin `github.url`
+
+This is the full command that we usually use when we want to connect a local repository to github.
+
+## git remote -v
+
+Tells us the connections a local repository has outside of this computer.
+
+## git push -u origin master
+
+When we create a local repository and we want to upload it to github we need to tell github where it has to store our commits.
+This command helps us to do exactly that and it's a shortcut so we don't need to tell it every time we make a push.
+Whit this command we save the information to push on the local repo.
+
 ## git push
 So far all the changes we've done and commited have been made locally, this hasn't modified our repo in github.
 To do so, we use `git push`. What it does is tell git to push all the changes we have done locally to the remote server in github.com.
@@ -36,7 +59,6 @@ To do so, we use `git push`. What it does is tell git to push all the changes we
 This file is used when we want to have files or information that is not tracked by git.
 For this purpose, we use a file named `.gitignore` and inside this file we will place all the files or paths that we want git to ignore.
 For example, we may do this to ignore the file where some enviroment variables are (.env) or paths were some modules are stores (like node_modules):
-![[Pasted image 20220807232322.png]]
 
 ## git status -s
 This command is really similar to `git status`, it just modifies how the changes are displayed in console.
@@ -49,7 +71,6 @@ Therefore, the green "M" means that the file is in the stage area and ready to b
 For last, the red "??" means that a file isn't tracked yet by git.
 
 After we  add a file that wasn't being tracked it appears with a green "A", this means that we are adding this file to the commit.
-![[Pasted image 20220807233818.png]]
 
 ## git diff
 This command helps us know what changes have been done before moving our files to the stage.
@@ -75,4 +96,4 @@ This command automatically creates a new branch with the given name and also mov
 This command is useful to switch between the different branches that our repo could have.
 
 ## git merge `<branch>`
-This command tries to unify the actual branch (the one you are in) and the branch with the given name
+This command tries to unify the actual branch (the one you are in) and the branch with the given name.
